@@ -1,0 +1,58 @@
+.App {
+  padding: 20px;
+  height: 100vh;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+}
+
+button {
+  background-color: #0c0e10; 
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 0px;
+  height: 55px;
+  width: 100px;
+}
+.resize {
+  position: relative; 
+  width: 100vh;
+  height: 300px;
+  border: 2px solid rgb(17, 15, 26);
+  overflow: auto;
+  margin-top: 20px;
+  background-color: rgb(14, 225, 233);
+}
+
+.resize > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+}
+
+.first_div {
+  display: flex;
+  grid-gap: 20px;
+}
+
+.displayfield {
+  justify-content: center;
+  margin: 15px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+
+
